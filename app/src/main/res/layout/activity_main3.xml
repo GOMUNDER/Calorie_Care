@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="fill_vertical"
+    tools:context=".MainActivity3"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/textjudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Personal Detail"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="202dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="32sp"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let us know about you to speed up the result, Get fit with your very own personal workout plan!"
+        tools:layout_editor_absoluteX="181dp"
+        tools:layout_editor_absoluteY="202dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:textSize="18dp"/>
+
+    <LinearLayout
+        android:id="@+id/layoutage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="fill_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:layout_marginTop="10dp"
+
+        >
+        <TextView
+            android:id="@+id/textViewage"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Age :"
+            android:textSize="24sp"
+            android:textAlignment="textEnd"
+            />
+
+        <EditText
+            android:id="@+id/editage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@+id/textViewage"
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutweight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="fill_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/layoutage"
+        android:layout_marginTop="10dp"
+
+        >
+        <TextView
+            android:id="@+id/textViewweight"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Weight :"
+            android:textSize="24sp"
+            android:textAlignment="textEnd"/>
+
+        <EditText
+            android:id="@+id/editweight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@+id/textViewweight"
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutheight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="fill_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/layoutweight"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textViewheight"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Height"
+            android:textSize="24sp"
+            android:textAlignment="textEnd"/>
+
+        <EditText
+            android:id="@+id/editheight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@+id/textViewheight"
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBMI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="fill_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/layoutheight"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textViewBMI"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="BMI :"
+            android:textSize="24sp"
+            android:textAlignment="textEnd"/>
+
+        <TextView
+            android:id="@+id/hasilBMI"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toRightOf="@+id/textViewBMI"
+            android:text="1222313"
+            android:layout_marginLeft="10dp"
+            android:textSize="24sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutgender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="fill_horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/layoutBMI"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/textViewgender"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Gender :"
+            android:textSize="24sp"
+            android:textAlignment="textEnd"/>
+
+        <TextView
+            android:id="@+id/hasilgender"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintLeft_toRightOf="@+id/textViewBMI"
+            android:text="pilih m / f sek blm tau pake ap -> radio button?"
+            android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+
+<Button
+    android:id="@+id/startbtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="140dp"
+    android:text="Start"
+    android:textAllCaps="false"
+    />
+
+
+</LinearLayout>
