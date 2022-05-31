@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.caloriecare;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;

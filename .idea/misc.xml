@@ -3,6 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/CalorieCare/CalorieCare/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.206" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/CalorieCare/CalorieCare/app/src/main/res/drawable/ic_launcher_background.xml" value="0.206" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/CalorieCare/CalorieCare/app/src/main/res/layout/activity_login.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/CalorieCare/CalorieCare/app/src/main/res/layout/activity_main.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/CalorieCare/CalorieCare/app/src/main/res/layout/activity_main2.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/CalorieCare/CalorieCare/app/src/main/res/layout/activity_main4.xml" value="0.17083333333333334" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/CalorieCare/CalorieCare/app/src/main/res/layout/activity_register.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/CalorieCare/CalorieCare/app/src/main/res/layout/sig_pop.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/Calorie_Care/Calorie_Care/app/src/main/res/layout/activity_main.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/Calorie_Care/Calorie_Care/app/src/main/res/layout/activity_main2.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/Calorie_Care/Calorie_Care/app/src/main/res/layout/activity_main3.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/Calorie_Care/Calorie_Care/app/src/main/res/layout/activity_main4.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/Calorie_Care/Calorie_Care/app/src/main/res/layout/activity_user_login.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/Calorie_Care/Calorie_Care/app/src/main/res/layout/activity_user_register.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/Calorie_Care/Calorie_Care/app/src/main/res/layout/log_pop.xml" value="0.22327898550724637" />
+        <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/ProjectCode/Calorie_Care/Calorie_Care/app/src/main/res/layout/sig_pop.xml" value="0.22327898550724637" />
         <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/test/Caloriecare/app/src/main/res/layout/activity_main.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/WILLY/Desktop/FCU_Course/GraduateProject/test/Caloriecare/app/src/main/res/layout/activity_main4.xml" value="0.11302083333333333" />
       </map>
