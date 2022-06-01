@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "750434031072",
+    "project_id": "caloriecarefirebase",
+    "storage_bucket": "caloriecarefirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:750434031072:android:4c2dff8c13673679764785",
+        "android_client_info": {
+          "package_name": "com.example.caloriecare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "750434031072-iofqqecqrqu7qkjru5ukhjdku1uj24c5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAULYC-ArbVim-yXbFOsPRFuxt2YK1TjXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "750434031072-iofqqecqrqu7qkjru5ukhjdku1uj24c5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
