@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalorieCare">
         <activity
+            android:name=".FirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditInfoAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InfoAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StepCountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="false" />
         <activity

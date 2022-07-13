@@ -1,3 +1,5 @@
+
+
 package com.example.caloriecare;
 
 import androidx.appcompat.app.AlertDialog;
@@ -12,10 +14,11 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class HomeActivity extends AppCompatActivity {
-
+}
+/*
 
     private Button loginButton, registerButton;
-    private Button toLoginButton,toRegisterButton;
+    private Button toLoginButton, toRegisterButton, toStepCounterButton;
     private Button cancelLoginButton, cancelRegButton;
 
     private AlertDialog.Builder dialogBuilder;
@@ -29,6 +32,7 @@ public class HomeActivity extends AppCompatActivity {
 
         loginButton = (Button) findViewById(R.id.btn_home_login);
         registerButton = (Button) findViewById(R.id.btn_home_register);
+        toStepCounterButton = (Button) findViewById(R.id.btn_to_step_counter);
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -47,9 +51,19 @@ public class HomeActivity extends AppCompatActivity {
                 //createdialog_reg();
             }
         });
+
+        toStepCounterButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(HomeActivity.this, StepCountActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
     }
 
-    /*
+    //--
     public void createdialog_log(){
         dialogBuilder = new AlertDialog.Builder(this);
         final View log_popup = getLayoutInflater().inflate(R.layout.activity_login,null);
@@ -117,10 +131,12 @@ public class HomeActivity extends AppCompatActivity {
         });
 
     }
-
-     */
+    //--
 
 
 
 
 }
+
+*/
+
