@@ -59,7 +59,8 @@
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toRightOf="@+id/textViewage"
             android:layout_marginLeft="10dp"
-            android:textSize="24sp"/>
+            android:textSize="24sp"
+            android:inputType="number"/>
 
 
     </LinearLayout>
@@ -88,7 +89,8 @@
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toRightOf="@+id/textViewweight"
             android:layout_marginLeft="10dp"
-            android:textSize="24sp"/>
+            android:textSize="24sp"
+            android:inputType="number"/>
 
 
     </LinearLayout>
@@ -116,7 +118,8 @@
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toRightOf="@+id/textViewheight"
             android:layout_marginLeft="10dp"
-            android:textSize="24sp"/>
+            android:textSize="24sp"
+            android:inputType="number"/>
 
     </LinearLayout>
 
@@ -142,7 +145,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:layout_constraintLeft_toRightOf="@+id/textViewBMI"
-            android:text="1222313"
+            android:text=""
             android:layout_marginLeft="10dp"
             android:textSize="24sp"/>
 
